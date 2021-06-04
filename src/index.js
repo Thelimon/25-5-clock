@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Clock from './container/Clock';
+import Normalize from 'react-normalize';
 
 ReactDOM.render(
   <>
-    <h1>Test</h1>
+    <Normalize />
+    <Clock />
   </>,
   document.getElementById('root')
 );
